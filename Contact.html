@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <p>22 Digby Road, RG14 1TS</p>
+    <P>07594256875</P>
+    <P>cassiehamley@icloud.com</P>
+
+    <hr />
+    <!--action="Index.html" will take us to the homepage but changing to mailto will actually open email-->
+    <!--encodingtype will allow the text in the email to be just text-->
+<form enctype="text/plain" action="mailto:cassiehamley@icloud.com" method="post">
+  <label>Your Name:</label>
+  <input type="text" name="yourName" value=""/><br />
+  <label>Your Email:</label>
+  <input type="email" name="yourEmail"/><br />
+  <label>Your Message:</label><br />
+  <textarea name="yourMessage" rows="10" cols="30"></textarea><br />
+  <input type="submit"/>
+  </form>
+
+
+
+
+  </body>
+
+</html>
